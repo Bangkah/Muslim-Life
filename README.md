@@ -111,3 +111,6 @@ Bantu pengembangan lebih lanjut:
 
 Terinspirasi dari kebutuhan harian umat Muslim, Muslim Life hadir sebagai teman ibadah yang ringan, modern, dan menenangkan.  
 > _“Jadikan setiap hari lebih bermakna bersama Muslim Life.”_
+
+---
+@Bangkah 2025
