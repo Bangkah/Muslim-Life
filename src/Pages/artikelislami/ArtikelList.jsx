@@ -1,4 +1,3 @@
-// src/Pages/artikelislami/ArtikelList.jsx
 import { Link } from 'react-router-dom';
 
 const artikelList = [
@@ -16,6 +15,11 @@ const artikelList = [
     id: 3,
     judul: 'Manfaat dan Keutamaan Bersedekah',
     ringkasan: 'Shadaqah membuka pintu rezeki dan mendatangkan keberkahan dalam hidup.',
+  },
+  {
+    id: 4,
+    judul: 'Keberkahan Bulan Ramadhan',
+    ringkasan: 'Ramadhan adalah bulan penuh rahmat, di mana pintu surga dibuka dan amal dilipatgandakan.',
   },
 ];
 

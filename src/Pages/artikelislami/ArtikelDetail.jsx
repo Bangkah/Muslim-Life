@@ -53,6 +53,24 @@ _"Perumpamaan (nafkah yang dikeluarkan oleh) orang-orang yang menafkahkan hartan
 Mari kita jadikan sedekah sebagai kebiasaan harian.
     `,
   },
+  4: {
+    judul: 'Keberkahan Bulan Ramadhan',
+    isi: `
+Ramadhan adalah bulan yang sangat istimewa bagi umat Islam, di mana Al-Qur'an pertama kali diturunkan. 
+Di bulan ini, Allah membuka pintu-pintu rahmat, menggandakan pahala amal shaleh, dan menurunkan Lailatul Qadar yang lebih baik dari seribu bulan.
+
+Keutamaan bulan Ramadhan:
+- Puasa Ramadhan adalah rukun Islam keempat
+- Pahala amal dilipatgandakan
+- Pintu surga dibuka dan pintu neraka ditutup
+- Setiap malam ada kesempatan untuk mendapatkan Lailatul Qadar
+
+Rasulullah ﷺ bersabda:
+_"Apabila datang bulan Ramadhan, maka pintu-pintu surga dibuka, pintu-pintu neraka ditutup, dan setan-setan dibelenggu."_ (HR. Bukhari & Muslim)
+
+Mari sambut Ramadhan dengan persiapan yang matang: memperbanyak taubat, membaca Al-Qur'an, bersedekah, dan memperbaiki kualitas ibadah kita.
+    `,
+  },
 };
 
 export default function ArtikelDetail() {
