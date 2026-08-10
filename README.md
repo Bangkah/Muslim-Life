@@ -66,26 +66,42 @@ Desain gelap digunakan secara default untuk kenyamanan mata dan efisiensi batera
 ## ⚙️ Teknologi yang Digunakan
 
 | Teknologi | Keterangan |
-|----------|------------|
-| **React.js** | Framework utama untuk membangun UI |
-| **React Router DOM** | Navigasi antar halaman |
-| **Axios** | Pengambilan data dari API |
-| **Tailwind CSS** | Styling modern dan responsif |
-| **React Icons** | Ikon-ikon UI yang simpel dan bermakna |
-| **Geolocation API (native)** | Mendapatkan lokasi pengguna secara otomatis |
-| **MyQuran API** | Untuk data jadwal shalat |
-| **EQuran API** | Untuk data surat dan ayat Al-Qur'an |
-| **API Ninjas — Qibla API** | Untuk arah kiblat berdasarkan koordinat |
-| **React Helmet** | SEO dan title dinamis |
+| :--- | :--- |
+| **React.js** | Library utama untuk membangun antarmuka UI |
+| **Capacitor JS** | Pembungkus (*cross-platform wrapper*) untuk kompilasi ke Android & iOS |
+| **Tailwind CSS** | Styling modern, responsif, dan fleksibel |
+| **React Router DOM** | Manajemen navigasi halaman SPA |
+| **Axios** | Client HTTP untuk komunikasi dengan REST API |
+| **MyQuran API v2** | Provider data Al-Qur'an dan jadwal shalat harian |
+| **API Ninjas — Qibla API** | Kalkulasi arah kiblat berbasis koordinat geolokasi |
+| **React Icons** | Provider ikon antarmuka modern |
 
 ---
 
-## 📱 Dukungan Perangkat
+## 📱 Dukungan Perangkat & Kompilasi Mobile
 
-Muslim Life berjalan di:
-- ✅ Android & iOS (via browser)
-- ✅ Desktop & Laptop
-- ✅ Browser modern (Chrome, Firefox, Safari, Edge)
+Muslim Life dapat berjalan di:
+- ✅ **Web Browser:** Responsive di Android, iOS, Windows, macOS, Linux
+- ✅ **Aplikasi Mobile Native:** Didukung penuh oleh Capacitor JS (`android/` & `ios/`)
+
+### Cara Menjalankan untuk Pengembangan Mobile
+
+```bash
+# Clone repositori
+git clone [https://github.com/Bangkah/Muslim-Life.git](https://github.com/Bangkah/Muslim-Life.git)
+cd Muslim-Life
+
+# Install dependensi
+npm install
+
+# Build web asset
+npm run build
+
+# Sinkronkan ke projek native Capacitor
+npx cap sync
+
+# Buka projek Android di Android Studio
+npx cap open android
 
 ---
 
@@ -97,13 +113,16 @@ Bantu pengembangan lebih lanjut:
 
 ---
 
-## 🛠️ Rencana Fitur Mendatang
+🛠️ Rencana Fitur Mendatang
+[ ] Integrasi backend API pribadi untuk artikel Islami
 
-- API backend pribadi untuk artikel Islami
-- Bookmark surah/ayat
-- Mode offline (PWA support)
-- Notifikasi waktu shalat
-- Fitur Tasbih Digital
+[ ] Bookmark surah/ayat favorit
+
+[ ] Fitur Tasbih Digital
+
+[ ] Notifikasi pengingat waktu shalat (Native Push Notification)
+
+[ ] Dukungan Mode Offline penuh (PWA & Local Database Storage)
 
 ---
 
