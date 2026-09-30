@@ -102,6 +102,7 @@ npx cap sync
 
 # Buka projek Android di Android Studio
 npx cap open android
+```
 
 ---
 
