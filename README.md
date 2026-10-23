@@ -134,3 +134,7 @@ Terinspirasi dari kebutuhan harian umat Muslim, Muslim Life hadir sebagai teman 
 
 ---
 @Bangkah 2025
+
+---
+
+Bagian dari gudang project publik **[Bangkah](https://bangkah.tech)** — dokumentasi dan alat developer di satu domain.
